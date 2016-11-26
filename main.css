@@ -3,7 +3,12 @@ body {
   width: 100vw;
   height: 100vh;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.grid {
+  margin-top: 3em;
 }
 
 section {
@@ -13,9 +18,14 @@ section {
 }
 
 div {
-  width: 3vw;
+  width: 2vw;
   height: 3vh;
   border: 1px solid grey;
+}
+
+form {
+  display: flex;
+  justify-content: center;
 }
 
 button {
